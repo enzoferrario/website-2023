@@ -8,6 +8,32 @@ html {
   padding-left: 0.1875em;
 }
 
+header {
+  
+}
+
+.nav {
+  font-family: Hamlet, "Times New Roman", sans-serif;
+  text-align: center;
+  padding-bottom: 1em;
+  padding: 0.5em;
+  background-color: #F5F5EE;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.nav li {
+  display: inline;
+  text-align: center;
+  padding: 0.4em;
+}
+
+.nav li:hover {
+  background-color: #092;
+}
+
 body {
   background-color: #D3D3D3;
 }

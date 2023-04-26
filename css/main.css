@@ -20,7 +20,6 @@ header {
 
 .nav {
   font-family: Hamlet, "Times New Roman", sans-serif;
-  text-align: center;
   background-color: #F5F5EE;
   display: flex;
   justify-content: space-around;
@@ -33,12 +32,11 @@ header {
   box-shadow: inset 0 0 0 0 #092;
   color: #092;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  padding: 0.5em;
 }
 
 .nav li:hover {
   box-shadow: inset 100px 0 0 0 #092;
-  color: white;
-  padding: 0.5em;
 }
 
 body {

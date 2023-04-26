@@ -14,7 +14,6 @@ header {
   box-sizing: border-box;
   background-color: #111;
   padding: 1em;
-  margin: 0em;
   text-align: center;
   width: auto;
 }
@@ -31,7 +30,6 @@ header {
 
 .nav li {
   display: inline;
-  text-align: center;
   box-shadow: inset 0 0 0 0 #092;
   color: #092;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
@@ -40,10 +38,7 @@ header {
 .nav li:hover {
   box-shadow: inset 100px 0 0 0 #092;
   color: white;
-}
-
-a {
-
+  padding: 0.5em;
 }
 
 body {

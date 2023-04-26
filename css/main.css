@@ -26,10 +26,12 @@ header {
   display: flex;
   justify-content: space-evenly;
   list-style-position: outside;
+  list-style-type: none;
   float: left;
 }
 
 .nav li {
+  list-style-type: none;
   display: inline;
   box-shadow: inset 0 0 0 0 #092;
   color: #092;

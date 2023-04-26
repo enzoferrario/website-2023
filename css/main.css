@@ -41,6 +41,7 @@ header {
 
 .nav li:hover {
   box-shadow: inset 100px 0 0 0 #092;
+  list-style-type: none;
 }
 
 body {

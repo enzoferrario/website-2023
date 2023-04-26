@@ -24,6 +24,7 @@ header {
   padding: 0em;
   margin: 0em;
   display: flex;
+  text-alignment: center;
   justify-content: space-evenly;
   list-style-position: outside;
   list-style-type: none;

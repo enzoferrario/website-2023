@@ -21,10 +21,10 @@ header {
 .nav {
   font-family: Hamlet, "Times New Roman", sans-serif;
   background-color: #F5F5EE;
+  text-alignment: center;
   display: flex;
   justify-content: space-around;
-  list-style-type: disc;
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 .nav li {

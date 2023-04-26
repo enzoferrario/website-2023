@@ -24,7 +24,6 @@ header {
   text-align: center;
   background-color: #F5F5EE;
   display: flex;
-  margin: 0em;
   justify-content: space-around;
   list-style-type: disc;
   list-style-position: inside;
@@ -34,10 +33,21 @@ header {
   display: inline;
   text-align: center;
   padding: 0.4em;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .nav li:hover {
   background-color: #092;
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+
+a {
+
 }
 
 body {

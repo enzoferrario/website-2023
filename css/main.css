@@ -11,7 +11,7 @@ html {
 header {
   color: #092;
   font-size: 1.5em;
-  padding-bottom: 0.5em;
+  /*padding-bottom: 0.5em;*/
   box-sizing: border-box;
   background-color: #111;
   padding: 1em;
@@ -22,8 +22,8 @@ header {
 .nav {
   font-family: Hamlet, "Times New Roman", sans-serif;
   text-align: center;
-  padding-bottom: 1em;
-  padding: 0.5em;
+  /*padding-bottom: 1em;
+  padding: 0.5em;*/
   background-color: #F5F5EE;
   display: flex;
   justify-content: space-around;

@@ -10,6 +10,8 @@ html {
 
 header {
   color: #092;
+  font-family: sans-serif;
+  font-weight: bold;
   font-size: 1.5em;
   box-sizing: border-box;
   background-color: #202020;

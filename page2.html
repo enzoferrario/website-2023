@@ -7,6 +7,8 @@
     <title>Welcome!</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+	<!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <nav class="nav">
     <ul>
@@ -21,10 +23,21 @@
       </li>
     </ul>
   </nav>
+  
+  <!-- Button to toggle navbar -->
+  <button id="nav-toggle">Toggle Navigation</button>
+  
   <body>
     <main>
-        <h1 id="car">YES,<br>LIKE THE CAR</h1>
+        <h1 class="car">YES,<br>LIKE THE CAR</h1>
     </main>
-	<script src="index.js"></script>
+    <!-- JavaScript code to toggle navbar -->
+	<script>
+    $(document).ready(function() {
+      $('#nav-toggle').click(function() {
+        $('nav').toggle();
+      });
+    });
+  </script>
   </body>
 </html>

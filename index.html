@@ -6,28 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome!</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Teko&display=swap" rel="stylesheet">
+	<!-- Burger Button -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
-  <header>Vincenzo Fasano</header>
   <nav class="nav">
     <ul>
       <li>
-        <a href="index.html">page 1</a>
+        <a href="index.html">Welcome</a>
       </li>
       <li>
-        <a href="page2.html">page 2</a>
+        <a href="pagetwo">page 2</a>
       </li>
       <li>
         <a href="pagethree">page 3</a>
       </li>
     </ul>
   </nav>
+  
+  <!-- Button to toggle navbar -->
+  <button class="nav-toggle">
+    <i class="fa fa-bars"></i>
+  </button>
+  
   <body>
     <main>
-        <h1>This is the new website for Vincenzo Fasano 2023!</h1>
-	    <p>Welcome to the upbringings of this website. I hope to update it soon.</p>
-		<p>This is a test</p>
+        <h1 class="car">YES,<br>LIKE THE CAR</h1>
     </main>
-	<script src="index.js"></script>
+    <!-- JavaScript code to toggle navbar -->
+	<script>
+    $(document).ready(function() {
+      $('.nav-toggle').click(function() {
+        $('nav').toggle();
+      });
+    });
+  </script>
   </body>
 </html>

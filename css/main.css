@@ -20,6 +20,11 @@ header {
   width: auto;
 }
 
+h1 {
+	display: flex;
+	justify-content: center;
+}
+
 ul {
 	padding: 0em;
 	margin: 0em;

@@ -21,8 +21,16 @@ header {
 }
 
 h1 {
-	display: flex;
-	justify-content: center;
+  font-size: 6em;
+  text-align: center;
+  line-height: 1.2;
+}
+
+#car {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84vh;
 }
 
 ul {

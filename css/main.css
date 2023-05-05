@@ -1,10 +1,9 @@
 html {
   color: #111;
-  background: #FFF;
   line-height: 1.1em;
   font-size: 1.25em;
   font-family: "Times New Roman", Arial, sans-serif;
-  background-color: #E0E0E0;
+  background-color: #2CDB65;
   padding-left: 0.1875em;
 }
 
@@ -21,9 +20,10 @@ header {
 }
 
 h1 {
-  font-size: 6em;
+  font-size: 6.2em;
   text-align: center;
   line-height: 1.2;
+  font-family: 'Teko', sans-serif;
 }
 
 .car {
